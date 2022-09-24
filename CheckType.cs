@@ -67,7 +67,7 @@ namespace PRN211_LAB1
         {
             while (true)
             {
-                string strRegex = @"^[0-0]{10}$";
+                string strRegex = @"^[0-9]{10,11}$";
                 string phone = Console.ReadLine();
                 Regex re = new Regex(strRegex);
                 if (re.IsMatch(phone))
@@ -79,6 +79,12 @@ namespace PRN211_LAB1
                     System.Console.WriteLine("Not valid phone number!");
                     System.Console.Write("Enter again: ");
                 }
+            }
+        }
+
+        public static string checkInputRollNo(){
+            while (true){
+
             }
         }
     }

@@ -6,7 +6,7 @@ namespace PRN211_LAB1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            
         }
     }
 }

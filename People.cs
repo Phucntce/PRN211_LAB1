@@ -46,7 +46,7 @@ namespace PRN211_LAB1
             Phone = CheckType.checkInputPhone();
         }
 
-        public abstract void inputInfo();
+        public abstract void printInfo();
         
     }
 }
