@@ -4,7 +4,8 @@ using System;
 namespace PRN211_LAB1
 {
     abstract class People
-    {
+    {   
+        
         public People() { }
 
 
@@ -17,6 +18,7 @@ namespace PRN211_LAB1
             Email = email;
             Phone = phone;
         }
+        public DateTime Odate { get; set; }
         public string ID_card { get; set; }
         public string Full_name { get; set; }
         public string Birthday { get; set; }
@@ -37,6 +39,7 @@ namespace PRN211_LAB1
             Full_name = Console.ReadLine();
             System.Console.Write("Enter BirthDay (mm/dd/yyyy): ");
             Birthday = CheckType.checkBirthDay();
+            Odate = Convert.ToDateTime(Birthday);
             System.Console.Write("Enter Adress: ");
             Address = CheckType.checkInputAddress();
             System.Console.Write("Enter Email: ");
@@ -45,6 +48,10 @@ namespace PRN211_LAB1
             Phone = CheckType.checkInputPhone();
         }
 
+        public int getAge(){
+            var today = DateTime.Today;
+            return today.Year - Odate.Year;
+        }
         public abstract void printInfo();
         
     }
