@@ -9,7 +9,7 @@ namespace PRN211_LAB1
             while (true)
             {
                 string id_card = Console.ReadLine();
-                string strRegex = @"^[0-9]{9}$";
+                string strRegex = @"^\w{9}$";
                 Regex re = new Regex(strRegex);
                 if (re.IsMatch(id_card))
                 {
@@ -95,7 +95,7 @@ namespace PRN211_LAB1
         {
             while (true)
             {
-                string strRegex = @"^[0-9]{10,11}$";
+                string strRegex = @"^0[0-9]{9,10}$";
                 string phone = Console.ReadLine();
                 Regex re = new Regex(strRegex);
                 if (re.IsMatch(phone))
@@ -142,14 +142,15 @@ namespace PRN211_LAB1
         public static string checkRollNo(){
             while (true){
                 string rollNo = Console.ReadLine();
-                string strRegex = @"^A12[0-9]{3}$";
+                string strRegex = @"^A12[0-9]{2}[1-9]{1}$";
                 Regex re = new Regex(strRegex);
-                if (re.IsMatch(strRegex)){
+                if (re.IsMatch(rollNo))
                     return rollNo;
-                } else {
-                    System.Console.WriteLine("Not valid Roll No!");
+                else{
+                    System.Console.WriteLine("Not valid Roll No. Roll No from A12001 - A12999");
                     System.Console.Write("Enter again: ");
                 }
+                    
             }
         }
 

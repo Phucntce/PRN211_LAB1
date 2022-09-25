@@ -15,19 +15,24 @@ namespace PRN211_LAB1
                 switch (choice)
                 {
                     case 1:
-                        System.Console.WriteLine("1. Input student.");
-                        System.Console.WriteLine("2. Calculate average mark and display information");
+                        Student t = new Student();
+                        t.inputStudent();
+                        t.printInfo();
                         System.Console.WriteLine();
                         break;
                     case 2:
-                        System.Console.WriteLine("1. Input teacher.");
-                        System.Console.WriteLine("2. Display the number of year that the teacher has worked");
+                        Teacher te = new Teacher();
+                        te.inputTeacher();
+                        te.printInfo();
                         break;
                     case 3:
-                        System.Console.WriteLine("1. Input subject");
-                        System.Console.WriteLine("2. Calculate total number of lesson");
+                        Subject s = new Subject();
+                        s.inputSubject();
+                        System.Console.Write("Number of lesson: ");
+                        System.Console.WriteLine(s.getTotalLessons());
                         break;
                     case 4:
+                        
                         break;
                     case 5:
                         System.Console.WriteLine("Thank for using my application!");

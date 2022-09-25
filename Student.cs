@@ -36,7 +36,9 @@ namespace PRN211_LAB1
         public void inputStudent()
         {
             base.inputPeople();
+            System.Console.Write("Enter Roll No: ");
             RollNo = CheckType.checkRollNo();
+            System.Console.Write("Enter Class No: ");
             ClassNo = CheckType.checkClassNo();
         }
 

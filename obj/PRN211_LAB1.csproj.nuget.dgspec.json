@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Student\\PRN211\\PRN211_LAB1\\PRN211_LAB1.csproj": {}
+    "D:\\Student\\PRN211\\PRN211_LAB1\\PRN211_LAB1.csproj": {}
   },
   "projects": {
-    "d:\\Student\\PRN211\\PRN211_LAB1\\PRN211_LAB1.csproj": {
+    "D:\\Student\\PRN211\\PRN211_LAB1\\PRN211_LAB1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Student\\PRN211\\PRN211_LAB1\\PRN211_LAB1.csproj",
+        "projectUniqueName": "D:\\Student\\PRN211\\PRN211_LAB1\\PRN211_LAB1.csproj",
         "projectName": "PRN211_LAB1",
-        "projectPath": "d:\\Student\\PRN211\\PRN211_LAB1\\PRN211_LAB1.csproj",
+        "projectPath": "D:\\Student\\PRN211\\PRN211_LAB1\\PRN211_LAB1.csproj",
         "packagesPath": "C:\\Users\\Thanh Phuc\\.nuget\\packages\\",
-        "outputPath": "d:\\Student\\PRN211\\PRN211_LAB1\\obj\\",
+        "outputPath": "D:\\Student\\PRN211\\PRN211_LAB1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Thanh Phuc\\AppData\\Roaming\\NuGet\\NuGet.Config",

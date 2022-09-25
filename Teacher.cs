@@ -33,7 +33,7 @@ namespace PRN211_LAB1
                 arr[index].inputSubject();
             }
         }
-        public DateTime Odate { get; set; }
+        public DateTime Odatee { get; set; }
         public string TeacherCode { get; set; }
         public string JoinDate { get; set; }
 
@@ -51,14 +51,14 @@ namespace PRN211_LAB1
             System.Console.Write("Enter teacher code: ");
             TeacherCode = CheckType.checkTeacherCode();
             JoinDate = CheckType.checkBirthDay();
-            Odate = Convert.ToDateTime(JoinDate);
+            Odatee = Convert.ToDateTime(JoinDate);
         }
 
 
         public int getWorkedYear()
         {
             var today = DateTime.Today;
-            return today.Year - Odate.Year;
+            return today.Year - Odatee.Year;
         }
     }
 }
