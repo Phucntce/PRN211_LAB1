@@ -1,0 +1,16 @@
+D:\Student\PRN211\PRN211_LAB1\bin\Debug\net5.0\PRN211_LAB1.exe
+D:\Student\PRN211\PRN211_LAB1\bin\Debug\net5.0\PRN211_LAB1.deps.json
+D:\Student\PRN211\PRN211_LAB1\bin\Debug\net5.0\PRN211_LAB1.runtimeconfig.json
+D:\Student\PRN211\PRN211_LAB1\bin\Debug\net5.0\PRN211_LAB1.runtimeconfig.dev.json
+D:\Student\PRN211\PRN211_LAB1\bin\Debug\net5.0\PRN211_LAB1.dll
+D:\Student\PRN211\PRN211_LAB1\bin\Debug\net5.0\PRN211_LAB1.pdb
+D:\Student\PRN211\PRN211_LAB1\obj\Debug\net5.0\PRN211_LAB1.csproj.AssemblyReference.cache
+D:\Student\PRN211\PRN211_LAB1\obj\Debug\net5.0\PRN211_LAB1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Student\PRN211\PRN211_LAB1\obj\Debug\net5.0\PRN211_LAB1.AssemblyInfoInputs.cache
+D:\Student\PRN211\PRN211_LAB1\obj\Debug\net5.0\PRN211_LAB1.AssemblyInfo.cs
+D:\Student\PRN211\PRN211_LAB1\obj\Debug\net5.0\PRN211_LAB1.csproj.CoreCompileInputs.cache
+D:\Student\PRN211\PRN211_LAB1\obj\Debug\net5.0\PRN211_LAB1.dll
+D:\Student\PRN211\PRN211_LAB1\obj\Debug\net5.0\refint\PRN211_LAB1.dll
+D:\Student\PRN211\PRN211_LAB1\obj\Debug\net5.0\PRN211_LAB1.pdb
+D:\Student\PRN211\PRN211_LAB1\obj\Debug\net5.0\PRN211_LAB1.genruntimeconfig.cache
+D:\Student\PRN211\PRN211_LAB1\obj\Debug\net5.0\ref\PRN211_LAB1.dll

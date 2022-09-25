@@ -36,8 +36,7 @@ namespace PRN211_LAB1
             System.Console.Write("Enter Full Name: ");
             Full_name = Console.ReadLine();
             System.Console.Write("Enter BirthDay (mm/dd/yyyy): ");
-            Birthday = Console.ReadLine();
-            DateTime dt = DateTime.Parse(Birthday);
+            Birthday = CheckType.checkBirthDay();
             System.Console.Write("Enter Adress: ");
             Address = CheckType.checkInputAddress();
             System.Console.Write("Enter Email: ");

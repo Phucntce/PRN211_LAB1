@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "PRN211_LAB1/1.0.0": {
+        "runtime": {
+          "PRN211_LAB1.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PRN211_LAB1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
