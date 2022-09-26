@@ -36,8 +36,8 @@ namespace PRN211_LAB1 {
             Practice = CheckType.checkNumber(0, 100);
         }
 
-        public void printInfo(Subject s){
-            Console.WriteLine(s.ToString());
+        public void printInfo(){
+            Console.WriteLine(ToString());
         }
     }
 }

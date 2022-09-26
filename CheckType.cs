@@ -78,8 +78,8 @@ namespace PRN211_LAB1
 
         public static string checkFullName(){
             while (true){
-                string strRegex = @"^[A-Za-z ]{0, 50}$";
                 string name = Console.ReadLine();
+                string strRegex = @"^[a-zA-Z ]+$";
                 Regex re = new Regex(strRegex);
                 if (re.IsMatch(name)){
                     return name;
@@ -185,9 +185,9 @@ namespace PRN211_LAB1
         public static string checkSubjectName(){
             while (true){
                 string result = Console.ReadLine();
-                string strRegex = @"^[A-Za-z0-9]{0,50}$";
+                string strRegex = @"^[A-Za-z0-9]{1,50}$";
                 Regex re = new Regex(strRegex);
-                if (re.IsMatch(result) || !String.IsNullOrEmpty(result)){
+                if (re.IsMatch(result) || !(String.IsNullOrEmpty(result))){
                     return result;
                 } else {
                     System.Console.WriteLine("Invalid subject name!. The subject name has most 50 characters.");

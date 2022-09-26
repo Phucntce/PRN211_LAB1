@@ -24,15 +24,20 @@ namespace PRN211_LAB1
                         Teacher te = new Teacher();
                         te.inputTeacher();
                         te.printInfo();
+                        System.Console.WriteLine();
                         break;
                     case 3:
                         Subject s = new Subject();
                         s.inputSubject();
-                        System.Console.Write("Number of lesson: ");
-                        System.Console.WriteLine(s.getTotalLessons());
+                        s.printInfo();
+                        System.Console.WriteLine();
                         break;
                     case 4:
-                        
+                        Marks_Subject m = new Marks_Subject();
+                        m.inputInfo();
+                        m.inputMarks();
+                        System.Console.WriteLine(m.ToString());
+                        System.Console.WriteLine();
                         break;
                     case 5:
                         System.Console.WriteLine("Thank for using my application!");

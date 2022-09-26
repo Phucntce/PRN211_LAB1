@@ -39,6 +39,7 @@ namespace PRN211_LAB1
         {
             System.Console.WriteLine(ToString());
         }
+        
 
         public override bool getBonus()
         {
@@ -47,7 +48,13 @@ namespace PRN211_LAB1
 
         public override string ToString()
         {
-            return $"Student name: {StudentName}\nSubject name: {Subject}\nMarks: {Marks}\nMarks: {Marks}";
+            string tmp = "";
+            if (checkPass()){
+                tmp+= "\nStatus: Passed";
+            } else {
+                tmp+= "\nStatus: Not Pass";
+            }
+            return $"Student name: {StudentName}\nSubject name: {Subject}\nMarks: {Marks}{tmp}";
         }
     }
 }
