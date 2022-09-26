@@ -16,8 +16,9 @@ namespace PRN211_LAB1
                 {
                     case 1:
                         Student t = new Student();
-                        t.inputStudent();
-                        t.printInfo();
+                        // t.inputStudent();
+                        // t.printInfo();
+                        t.calAvg();
                         System.Console.WriteLine();
                         break;
                     case 2:
