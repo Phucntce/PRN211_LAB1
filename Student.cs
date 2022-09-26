@@ -45,26 +45,11 @@ namespace PRN211_LAB1
             {
                 sum+= Marks[i];
             }
-            double avg = sum/size;
-            System.Console.WriteLine($"Avg: {avg}");
-
+            double avg = ((double) sum) / size;
+            System.Console.WriteLine($"Average mark: {avg}");
 
         }
 
-        // public void inputMark(){
-        //     System.Console.Write("Enter number of mark: ");
-        //     int sz = Convert.ToInt32(Console.ReadLine());
-        //     for (int i = 0; i < sz; i++){
-        //         System.Console.WriteLine($"Enter mark {i}: ");
-        //         Marks[i] = Convert.ToInt32(Console.ReadLine());
-        //     }
-
-        //     int sum = 0;
-        //     for (int i = 0; i < sz; i++){
-        //         sum+= Marks[i];
-        //     }
-        //     System.Console.WriteLine($"The average of mark is: {sum/sz}");
-        // }
         public void inputStudent()
         {
             base.inputPeople();
