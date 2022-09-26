@@ -40,7 +40,7 @@ namespace PRN211_LAB1
         public override void printInfo()
         {
             System.Console.WriteLine("Full Name: " + Full_name);
-            System.Console.WriteLine("Number Of Year Old: " + getAge());
+            System.Console.WriteLine("Number Of Year Old: " + getWorkedYear());
             System.Console.WriteLine("Teacher Code: " + TeacherCode);
             System.Console.WriteLine("Joined Date: " + JoinDate);
         }
@@ -50,6 +50,7 @@ namespace PRN211_LAB1
             base.inputPeople();
             System.Console.Write("Enter teacher code: ");
             TeacherCode = CheckType.checkTeacherCode();
+            System.Console.Write("Enter join date: ");
             JoinDate = CheckType.checkBirthDay();
             Odatee = Convert.ToDateTime(JoinDate);
         }

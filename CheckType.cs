@@ -27,7 +27,7 @@ namespace PRN211_LAB1
         public static string checkBirthDay(){
             while (true){
                 string birthday = Console.ReadLine();
-                string strRegex = @"^\b(0?[1-9]|[12]\d|3[01])[\/\-.](0?[1-9]|10|11|12)[\/\-.]([1-9][0-9]{3})\b$";
+                string strRegex = @"^\b(0?[1-9]|[12]\d|3[01])[\/\-.](0?[1-9]|10|11|12)[\/\-.]((1\d{3})|(20[0-2]{2}))\b$";
                 Regex re = new Regex(strRegex);
                 if (re.IsMatch(birthday)){
                     return birthday;
